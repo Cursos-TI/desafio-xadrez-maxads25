@@ -14,11 +14,11 @@ int main() {
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
     // estrutura WHILE, para representar o movimento do bispo 5 casas na diagonal para cima/direita
     
-    int b=1;
-    while( b <= mov_bispo) {                                //condição para repetir 5x
+    int b=1;                                                // váriavel utilizada para contagem dos movimentos
+    while( b <= mov_bispo) {                                // condição para repetir 5x
 
         printf("cima, ");
-        printf("direita!\n");      //exibição na tela, enquanto bispo <= 5, para andar 5 casas na diagonal.
+        printf("direita!\n");      //exibição na tela, enquanto b <= 5, para andar 5 casas na diagonal.
         b++;
 
     }
@@ -31,7 +31,7 @@ int main() {
 
     for(int i = 1; i <= mov_torre; i++){        //inicio da estrutura
 
-        printf("Direita!\n");       //exibição na tela enquanto torre <= 5 para andar 5 casas a direita.
+        printf("Direita!\n");       //exibição na tela enquanto i <= 5 para andar 5 casas a direita.
     }
 
     printf("\n");
@@ -40,12 +40,12 @@ int main() {
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
     // estrutura do-while para representar o movimento da rainha 8 casas a esquerda
     
-    int r = 1;
+    int r = 1;                                  // váriavel utilizada para contagem dos movimentos
     do{
-        printf("Esquerda!\n");
+        printf("Esquerda!\n");                  // exibição na tela enquanto r <=8 para andar 8 casas a esquerda
         r++;
 
-    }while ( r <= mov_rainha);
+    }while ( r <= mov_rainha);                  // condição para parar a execução
 
 
     // Nível Aventureiro - Movimentação do Cavalo
